@@ -23,6 +23,7 @@ export const clinic = {
     "Navika Dental Care & Implant Center, Rohini, New Delhi, Delhi 110085",
   mapQuery:
     "Navika%20Dental%20Care%20%26%20Implant%20Center%20Rohini%20New%20Delhi",
+  directionsHref: "https://maps.app.goo.gl/mx4L2ASJRTjTnens6?g_st=aw",
   email: "care@navikadental.com",
   url: "https://navikadental.com",
   geo: {

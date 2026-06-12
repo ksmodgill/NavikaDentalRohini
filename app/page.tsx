@@ -7,7 +7,6 @@ import {
   MapPin,
   MessageCircle,
   Phone,
-  PlayCircle,
   Quote
 } from "lucide-react";
 import { AnimatedSection } from "@/components/animated-section";
@@ -431,10 +430,7 @@ function TestimonialsSection() {
         </div>
 
         <div className="mt-8 grid gap-6 rounded-2xl bg-text-primary p-5 text-white shadow-sm lg:grid-cols-[0.8fr_1.2fr] lg:items-center lg:p-6">
-          <div className="flex items-center gap-4">
-            <div className="grid size-16 place-items-center rounded-full bg-surface">
-              <PlayCircle aria-hidden="true" className="size-9 text-primary" />
-            </div>
+          <div>
             <div>
               <h3 className="font-heading text-lg font-semibold md:text-xl">Treatment clarity</h3>
               <p className="mt-1 font-body text-base font-normal text-secondary-light">
@@ -598,7 +594,7 @@ function ContactCard({
 function SiteFooter() {
   return (
     <footer className="border-t border-border bg-surface pb-28 pt-5 text-center md:pb-[50px]">
-      <div className="container-narrow">
+      <div className="container-narrow flex flex-col items-center gap-3">
         <a
           href="https://www.sintyz.com"
           target="_blank"
